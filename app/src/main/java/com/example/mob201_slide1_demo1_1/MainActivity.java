@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        startService.findViewById(R.id.startService);
-        stopService.findViewById(R.id.stopService);
+        startService=findViewById(R.id.startService);
+        stopService=findViewById(R.id.stopService);
         startService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

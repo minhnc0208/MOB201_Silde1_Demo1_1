@@ -17,7 +17,7 @@ public class MyService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Dang tao Service", Toast.LENGTH_SHORT).show();
         // phai viet tren Service
         return super.onStartCommand(intent, flags, startId);
 
